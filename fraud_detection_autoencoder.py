@@ -30,11 +30,12 @@ X_train, X_test, y_train, y_test = train_test_split(
 #Initialize and train AutoEncoder
 
 clf = AutoEncoder(
-    contamination=0.0017,
+    contamination=0.005,
     epoch_num=30,
     batch_size=128,
-    hidden_neuron_list=[64, 32],
-    dropout_rate=0.2,
+    # hidden_neuron_list=[64, 32],
+    hidden_neuron_list=[30, 16, 8, 16, 30],
+    dropout_rate=0.1,
     batch_norm=True,
     random_state=42,
     verbose=1
