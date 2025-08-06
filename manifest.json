@@ -1,0 +1,52 @@
+{
+  "projectName": "Credit Card Fraud Detection using PyOD",
+  "version": "1.0.0",
+  "author": "Your Name Here",
+  "dateCreated": "2025-08-05",
+  "description": "An unsupervised machine learning project to detect fraudulent credit card transactions using an Autoencoder model from the PyOD library.",
+  "assignmentDetails": {
+    "course": "AP_MSCS633",
+    "instructor": "Professor's Name"
+  },
+  "projectFiles": [
+    {
+      "fileName": "fraud_detection_autoencoder.py",
+      "description": "The main Python script that loads data, trains the model, and evaluates its performance."
+    },
+    {
+      "fileName": "data/creditcard.csv",
+      "description": "The dataset file containing anonymized transaction data from European cardholders.",
+      "source": "https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud"
+    },
+    {
+      "fileName": "manifest.json",
+      "description": "This file, containing the project's metadata."
+    }
+  ],
+  "executionInstructions": {
+    "environment": "A Python virtual environment is recommended.",
+    "command": "python fraud_detection_autoencoder.py"
+  },
+  "keyLibraries": [
+    {
+      "name": "pyod",
+      "version": "2.0.5"
+    },
+    {
+      "name": "pandas",
+      "version": "Specify version, e.g., 2.2.0"
+    },
+    {
+      "name": "scikit-learn",
+      "version": "Specify version, e.g., 1.4.0"
+    },
+    {
+      "name": "numpy",
+      "version": "Specify version, e.g., 1.26.0"
+    },
+    {
+      "name": "matplotlib",
+      "version": "Specify version, e.g., 3.8.0"
+    }
+  ]
+}
